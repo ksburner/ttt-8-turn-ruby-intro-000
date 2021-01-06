@@ -29,6 +29,5 @@ def turn(board)
   until valid_move?(board, index)
     puts "Please re-enter a number from 1-9"
     index = input_to_index(gets.strip)
-
   end
 end
